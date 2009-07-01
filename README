@@ -1,0 +1,11 @@
+This is a collection of scripts I've written over the years.
+
+I keep them on github so they're always backed up, easy to access from anywhere,
+and available to anyone else who might find them useful.
+
+pydnbshare.py
+-------------
+A python script to download all the MP3s from dnbshare.com's rss feed. It even
+gets around the stupid anti-linking measures they have :) (that was fun to 
+figure out btw)
+
