@@ -5,6 +5,8 @@
 
 # TODO it currently reads the entire mp3 into memory instead of writing
 # it out to disk as it gets it
+# what happens if the script dies?
+# progress meter?
 
 URL="http://www.dnbshare.com/feed"
 
