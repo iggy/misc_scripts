@@ -9,3 +9,8 @@ A python script to download all the MP3s from dnbshare.com's rss feed. It even
 gets around the stupid anti-linking measures they have :) (that was fun to 
 figure out btw)
 
+dme.py
+--------------
+A python script to add/remove DNS records using the DNS Made Easy rest API. For 
+more info, see:
+http://www.dnsmadeeasy.com/services/rest-api/
