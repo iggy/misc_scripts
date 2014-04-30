@@ -26,6 +26,10 @@ except:
     print('Failed to read ' + CFGFILE)
     sys.exit(1)
 
+# make sure fetched/ dir exists for us to put the files in
+if not os.access('fetched/', os.R_OK|os.W_OK):
+    os.mkdir('fetched/')
+
 s = requests.Session()
 login = s.post('https://gettorrents.org/takelogin.php', data={'username':USER, 'password':PASS, 'logout':'no', })
 
