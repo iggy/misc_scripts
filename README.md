@@ -10,12 +10,12 @@ gets around the stupid anti-linking measures they have :) (that was fun to
 figure out btw)
 
 dme.py
---------------
+------
 A python script to add/remove DNS records using the DNS Made Easy rest API. For 
 more info, see:
 http://www.dnsmadeeasy.com/services/rest-api/
 
 gtrss.py
---------------
+--------
 A Python script that downloads latest releases from a certain torrent site. See 
 script comments for configuration.
